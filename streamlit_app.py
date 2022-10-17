@@ -31,7 +31,7 @@ try:
 except URLError as e:
   streamlit.error();
 
-streamlit.stop();
+
 
 # import snowflake.connector;
 
@@ -59,4 +59,4 @@ if streamlit.button('Get Fruit Load list'):
   streamlit.text(back_from_function);
 
 
-
+streamlit.stop();
